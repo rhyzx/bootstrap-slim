@@ -569,7 +569,7 @@
 // -------------------------
 .label-variant(@color) {
   background-color: @color;
-  &:link {
+  &:link, &:visited {
     &:hover,
     &:focus {
       background-color: darken(@color, 10%);
